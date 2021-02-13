@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server/index.ts",
-    "dev": "webpack --mode development --hot --watch"
+    "dev": "webpack --mode development --hot --watch",
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
